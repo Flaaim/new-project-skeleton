@@ -19,7 +19,8 @@
     "require-dev": {
         "overtrue/phplint": "^9.7",
         "roave/security-advisories": "dev-latest",
-        "vimeo/psalm": "^6.16"
+        "vimeo/psalm": "^6.16",
+        "weirdan/doctrine-psalm-plugin": "^2.10"
     },
     "config": {
         "allow-plugins": {
