@@ -18,6 +18,7 @@
     },
     "require-dev": {
         "overtrue/phplint": "^9.7",
+        "psalm/plugin-phpunit": "^0.19.7",
         "roave/security-advisories": "dev-latest",
         "vimeo/psalm": "^6.16",
         "weirdan/doctrine-psalm-plugin": "^2.10"
