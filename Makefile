@@ -10,13 +10,13 @@ docker-down:
 	docker compose down --remove-orphans
 
 docker-down-clear:
-	docker-compose down -v --remove-orphans
+	docker compose down -v --remove-orphans
 
 docker-pull:
-	docker-compose pull
+	docker compose pull
 
 docker-build:
-	docker-compose build
+	docker compose build
 
 api-init: api-composer-install
 
