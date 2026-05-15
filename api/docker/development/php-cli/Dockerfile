@@ -17,6 +17,7 @@ RUN addgroup -g 1000 app && adduser -u 1000 -G app -s /bin/bash -D app
 COPY --from=composer:2 /usr/bin/composer /usr/local/bin/composer
 
 COPY ./common/wait-for-it.sh /usr/local/bin/wait-for-it
+COPY ./common/php/conf.d /usr/local/etc/php/conf.d
 RUN chmod 555 /usr/local/bin/wait-for-it
 
 WORKDIR /app

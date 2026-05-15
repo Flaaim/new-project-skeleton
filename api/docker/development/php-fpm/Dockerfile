@@ -13,6 +13,8 @@ RUN install-php-extensions intl pdo_pgsql opcache zip apcu
 
 RUN mv $PHP_INI_DIR/php.ini-development $PHP_INI_DIR/php.ini
 
+COPY ./common/php/conf.d /usr/local/etc/php/conf.d
+
 WORKDIR /app
 
 WORKDIR /app
