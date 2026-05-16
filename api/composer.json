@@ -24,6 +24,8 @@
         "phpunit/phpunit": "^13",
         "psalm/plugin-phpunit": "^0.19.7",
         "roave/security-advisories": "dev-latest",
+        "symfony/browser-kit": "8.0.*",
+        "symfony/css-selector": "8.0.*",
         "vimeo/psalm": "^6.16",
         "weirdan/doctrine-psalm-plugin": "^2.10"
     },
