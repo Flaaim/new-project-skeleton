@@ -72,7 +72,8 @@
             "@auto-scripts"
         ],
         "lint": "phplint",
-        "psalm": "psalm --config=psalm.xml"
+        "psalm": "psalm --config=psalm.xml",
+        "php-cs-fixer": "php-cs-fixer --config=.php-cs-fixer.dist.php --allow-risky=yes"
     },
     "conflict": {
         "symfony/symfony": "*"
