@@ -15,7 +15,8 @@
         "symfony/framework-bundle": "8.0.*",
         "symfony/psr-http-message-bridge": "8.0.*",
         "symfony/runtime": "8.0.*",
-        "symfony/yaml": "8.0.*"
+        "symfony/yaml": "8.0.*",
+        "webmozart/assert": "^2.3"
     },
     "require-dev": {
         "dg/bypass-finals": "^1.9",
